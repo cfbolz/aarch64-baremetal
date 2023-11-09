@@ -1,0 +1,7 @@
+minimal bare metal arch64 example. you likely need to adapt the uart code in
+src/mini_uart.c
+
+adapted from https://github.com/s-matyukevich/raspberry-pi-os/tree/master/src/lesson01
+
+execution should start at PC=0, the resulting binary needs to be mapped to that
+address.
